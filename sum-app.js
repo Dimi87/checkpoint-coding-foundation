@@ -1,5 +1,9 @@
 class SumApp {
-   constructor(){
+   constructor(addNumber, getSum, reset){
+    this.n = addNumber 
+    this.n = getSum 
+    this.n = reset 
+
     const numbers = []
   }
 
