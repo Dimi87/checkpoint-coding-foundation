@@ -1,31 +1,29 @@
 class SumApp {
-   constructor(addNumber, getSum, reset){
-    this.n = addNumber 
-    this.n = getSum 
-    this.n = reset 
+   constructor(){
+    
 
-    const numbers = []
+    this.numbers = []
   }
 
 
   addNumber(n){
-   push.number(n)
+   this.numbers.push(n)
   }
 
   getSum() {
-    for (let i = 0; i < numbers.length; i++) {
-       let sumArray = sumArray + numbers[i]
+    for (let i = 0; i < this.numbers.length; i++) {
+       let sumArray = sumArray + this.numbers[i]
     }
     return sumArray
   }
 
   reset(){
-  numbers = []
+  this.numbers = []
   }
 
 }
-const sumApp = new SumApp();
-sumApp.reset()
-sumApp.addNumber(2)
+this.sumApp = new SumApp();
+this.sumApp.reset()
+this.sumApp.addNumber(2)
 
 //console.log("wo",numbers)
